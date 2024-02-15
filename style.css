@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Helvetica Neue";
+  src: url("path/to/helvetica-neue.woff2") format("woff2"),
+    url("path/to/helvetica-neue.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+body {
+  overflow-x: hidden;
+}
+.navigation a {
+  text-decoration: none;
+  color: black;
+}
+.navigation,.logo,.line,.plant,.main-text,.text,.btn1,.btn2,.icons img,.anotherline,.star {
+  position: relative;
+}
+.navigation {
+  left: 1000px;
+  bottom: 39px;
+  word-spacing: 29px;
+  font-size: 18px;
+  font-weight: 200;
+}
+.navigation a:nth-child(4) {
+  word-spacing: 5px;
+}
+.logo {
+  left: 70px;
+  top: 35px;
+  padding-bottom: 55px;
+}
+.first-word {
+  color: #000;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+}
+.second-word {
+  color: #36794f;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 30px;
+}
+.line {
+  height: 1px;
+  background-color: black;
+  z-index: 3;
+}
+.secondimg {
+  width: 100vw;
+  height: 100vh;
+  margin-top: 100px;
+  vertical-align: bottom;
+}
+.plant {
+  width: 490px;
+  height: 590px;
+  left: 110px;
+  bottom: 111px;
+  z-index: 2;
+}
+.main-text {
+  left: 694px;
+  bottom: 576px;
+}
+.title {
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 44px;
+}
+.text {
+  top: 10px;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Helvetica Neue", sans-serif;
+}
+.btn1,
+.btn2 {
+  top: 60px;
+  background-color: #01601b;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 196px;
+  height: 50px;
+  border: none;
+  padding: 18px;
+  cursor: pointer;
+}
+.btn1 {
+  right: 10px;
+}
+.btn2 {
+  left: 10px;
+}
+.icons img:first-child {
+  bottom: 800px;
+  left: 90.5%;
+}
+.icons img {
+  bottom: 710px;
+  left: 92%;
+  padding: 10px;
+  display: block;
+  cursor: pointer;
+}
+.anotherline {
+  bottom: 605px;
+  left: 89.4%;
+  transform: rotate(90deg);
+  width: 173px;
+  height: 1px;
+  background-color: #000;
+}
+.star {
+  left: 75px;
+  bottom: 610px;
+  filter: drop-shadow(0px 4px 4px rgba(255, 100, 137, 0.25));
+}
+.paragraph {
+  position: relative;
+  bottom: 539px;
+  left: 61px;
+  color: #000;
+  font-size: 36px;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  position: relative;
+  bottom: 530px;
+}
+.product-card {
+  padding: 30px;
+}
+.img {
+  width: 380px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: -4px;
+  width: 100%;
+  height: 42px;
+  background-color: rgba(54, 121, 79, 0.55);
+  padding: 9px 25px 0 13px;
+  color: #fff;
+  font-size: 19px;
+  font-weight: 200;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.price {
+  font-size: 19px;
+  font-style: italic;
+  font-weight: 600;
+}
+.link {
+  position: relative;
+  bottom: 530px;
+  left: 90.3%;
+  color: #01601b;
+  font-size: 18px;
+}
+footer {
+  display: flex;
+  height: 400px;
+  margin-top: -400px;
+  background-color: #255338;
+}
+
+.footerLeft {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  margin-left: 74px;
+  padding-bottom: 300px;
+}
+.firstone {
+  color: #fbfbfb;
+  font-family: "Manrope", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.secondone {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+.footerRight {
+  display: flex;
+  flex-direction: row;
+  flex: content;
+  position: relative;
+  left: 416px;
+  justify-content: space-evenly;
+}
+.footerTitle,.fmenuList,.footermenulist,.navigation,.btn1,.btn2,.paragraph,.description,.secondone,.link,.price {
+  font-family: "Roboto", sans-serif;
+}
+
+.footerTitle {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  padding-top: 50px;
+}
+.futterbottom {
+  display: flex;
+  align-items: end;
+  padding: 0 0 13px 0;
+}
+.fListItem {
+  padding: 3px;
+  margin-bottom: 2px;
+  text-align: left;
+}
+.fmenuList {
+  padding-top: 18px;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  list-style: none;
+}
+.footermenulist {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  word-spacing: 20px;
+  padding-right: 60px;
+}
+
+.fList:nth-child(2) {
+  word-spacing: 7px;
+}
+.fline {
+  position: relative;
+  bottom: 60px;
+  background-color: #fff;
+  height: 1px;
+  width: 100%;
+}
+.items{
+  cursor: pointer;
+}
